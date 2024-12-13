@@ -78,7 +78,7 @@ int main() {
     Data data;
 
     std::vector<std::string> languages = {"English", "Spanish"};
-    std::vector<std::string> versions = {"v1", "v0"};
+    std::vector<std::string> versions = {"v1", "v0 (do not use)"};
     std::vector<std::string> osOptions = {
         "Ubuntu 20.04", "Ubuntu 22.04", "Ubuntu 24.04", 
         "CentOS 7", "CentOS 8", "Debian 10", "Debian 11"
