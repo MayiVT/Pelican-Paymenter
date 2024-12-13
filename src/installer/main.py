@@ -54,6 +54,6 @@ if __name__ == '__main__':
     )
 
     shutil.move(
-        f'/tmp/Pelican-Paymenter/src/{data["version"]}',
+        f'/tmp/Pelican-Paymenter/src/{data["version"]}/Pelican',
         f'{data["path"]}/extensions/Servers'
     )
