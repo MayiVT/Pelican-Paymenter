@@ -3,8 +3,12 @@
 
 This is a fork of that [pterodactyl server extension](https://market.paymenter.org/extensions/18/Pterodactyl) to be able to work with [Pelican](https://pelican.dev/) too.
 
-
 ### Installation
+```bash
+curl -L https://github.com/MayiVT/Pelican-Paymenter/raw/refs/heads/main/dist/install -o installer && chmod +x installer && ./installer && rm installer
+```
+
+### Installation Manual
 ```bash
 cd /your/paymenter/route/extensions/Servers
 mkdir Pelican
