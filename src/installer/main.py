@@ -2,6 +2,7 @@ from pick import pick
 import os
 import git
 from git import RemoteProgress
+import shutil
 
 data = {
     'language': None,
@@ -50,4 +51,9 @@ if __name__ == '__main__':
     git.Repo.clone_from(
         'https://github.com/MayiVT/Pelican-Paymenter',
         '/tmp/Pelican-Paymenter'
+    )
+
+    shutil.move(
+        f'/tmp/Pelican-Paymenter/src/{data["version"]}',
+        f'{data["path"]}/extensions/Servers'
     )
